@@ -216,8 +216,8 @@ class TableauDocumentation:
 
 # call the script here
 if __name__ == "__main__":
-    input_path = "C:/Users/HugoMartin/Downloads/CL08.twb" # input here -  If you use / in the path, enclose it in ' '. If you use \ in the path, use the format r"your\path"
-    output_path = "C:/Users/HugoMartin/Downloads/Pyton3" # output folder ex. r"C:\Users\anel\Documents\Python Tests"
+    input_path = "C:/Users/doc.tbw" # input here -  If you use / in the path, enclose it in ' '. If you use \ in the path, use the format r"your\path"
+    output_path = "C:/Users/documentation" # output folder ex. r"C:\Users\anel\Documents\Python Tests"
     output_filename = "5.19.documentation"  # output file name
 
     tableau_doc = TableauDocumentation(input_path, output_path, output_filename)
